@@ -2,7 +2,7 @@
 /*jslint node: true */
 'use strict';
 
-/*
+
 
 //strict mode
 
@@ -13,9 +13,9 @@ let passTest = true;
 if(passTest) hasDriverLicense = true;
 if(hasDriverLicense) console.log("I can drive");
 
-*/
 
-/*
+
+
 //function
 
 function logger(){
@@ -35,10 +35,10 @@ function fruitProcessor(apple, orange){
 
 let result = fruitProcessor(5,0);
 console.log(result);
-*/
 
 
-/*
+
+
 // function declearation vs function expression
 
 
@@ -59,10 +59,10 @@ const age2 = calAge(1992);
 
 console.log(age, age2);
 
-*/
 
 
-/*
+
+
 //arrow function
 
 
@@ -81,9 +81,8 @@ const yearsUntilRetirement = (birthYear, firstName) =>{
 console.log(yearsUntilRetirement(1995, 'Mou'));
 console.log(yearsUntilRetirement(1992, 'Naim'));
 
-*/
 
-/*
+
 // function overview
 
 const calcAge = function (birthYear) {
@@ -106,9 +105,9 @@ console.log(name);
 const nameX = yearsUntilRetirement(1950, "X");
 console.log(nameX);
 
-*/
 
-/*
+
+
 
 //coding challenge -1
 
@@ -134,9 +133,11 @@ function checkWinner(teamA, teamB){
 const result = checkWinner(aveDolphins, aveKoalas);
 
 console.log(result);
-*/
 
-/*
+
+
+
+
 //arrays
 
 const friend = ['Naim', "amin",`hasan`,'muhammad'];
@@ -160,8 +161,8 @@ const naim = [firstName, 'Hasan', 2020-1992, 'Programmer', friend];
 
 console.log(naim);
 
-*/
-/*
+
+
 
 //array method's
 
@@ -189,8 +190,8 @@ arr.push(23);
 console.log(arr.includes(23));
 console.log(arr.includes('23'));
 
-*/
-/*
+
+
 //coding challenge-2
 
 function calcTip(value){
@@ -221,9 +222,9 @@ for(let i=0;i<bills.length;i++)
 console.log("tips-> ",tips);
 console.log("total-> ", total);
 
-*/
 
-/*
+
+
 //object
 
 const naimHasan = {
@@ -262,9 +263,11 @@ console.log(naimHasan);
 const result = `${naimHasan.firstName} has ${naimHasan.friends.length} friends and his best friend is ${naimHasan.friends[0]}`;
 
 console.log(result);
-*/
 
-/*
+
+
+
+
 //object methods
 
 const naimHasan = {
@@ -296,7 +299,7 @@ console.log(naimHasan.getSummary());
 */
 
 
-/*
+
 //coding challenge-3
 
 const mark = {
@@ -330,7 +333,7 @@ if(mark.BMI > john.BMI){
     console.log(`John BMI(${john.BMI}) is higher than Mark BMI(${mark.BMI})`);
 }
 
-*/
+
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 
