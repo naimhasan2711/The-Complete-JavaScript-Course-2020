@@ -1,6 +1,6 @@
 /* Assignment */
 
-/*
+
 var country = 'Bangladesh';
 var continent = 'Asia';
 var population = '161.4 million';
@@ -9,10 +9,10 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
-*/
+
 
 // let, const and var lecture
-/*
+
 let age = 27;
 age = 28;
 
@@ -22,11 +22,11 @@ const birthYear = 1993;
 
 var job = 'Programmer';
 job = 'teacher';
-*/
+
 
 // operator precedence 
 
-/*
+
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -39,10 +39,10 @@ const ageSarah = now - 2018;
 const averageAge = (ageJonas + ageSarah) / 2;
 
 console.log(ageJonas, ageSarah, averageAge);
-*/
+
 
 // coding challenges-1
-/*
+
 
 const markMass = 95;
 const markHeight = 1.88;
@@ -62,10 +62,10 @@ markHigherBMI = markBMI>johnBMI? "mark is higher": "john is higher";
 
 console.log(markHigherBMI);
 
-*/
+
 
 // string and string literal
-/*
+
 
 const firstName = 'Naim';
 const job = 'Programmer';
@@ -89,12 +89,12 @@ console.log(`string with
 multiple 
 line`);
 
-*/
+
 
 
 //coding challenge - 2
 
-/*
+
 
 const markMass = 78;
 const markHeight = 1.69;
@@ -120,10 +120,9 @@ const result = markBMI > johnBMI ? `Mark's BMI(${markBMI}) is higher than John's
 
 console.log(result);
 
-*/
 
 //type coercion and type conversion
-/*
+
 
 //type conversion
 const birthYear = '1992';
@@ -153,8 +152,8 @@ console.log(2+3+4+'5');
 
 console.log('10'-'4'-'3'-2+'5');
 
-*/
-/*
+
+
 //trythy values and falsy values
 
 //5 falsy values: 0, '', undefined, null, NaN
@@ -186,9 +185,9 @@ if(height){
     console.log("Height is undefined.");
 }
 
-*/
 
-/*
+
+
 // coding challenge -3
 
 const dolphinsAverage = (97+101+112)/3;
@@ -204,10 +203,10 @@ if(dolphinsAverage === koalasAverage){
     console.log("Koalas win the cup.!!!");
 }
 
-*/
 
 
-/*
+
+
 // switch statement
 
 const day = 'Monday';
@@ -241,7 +240,7 @@ switch(day){
 
 }
 
-*/
+
 
 //coding challenge -4
 
