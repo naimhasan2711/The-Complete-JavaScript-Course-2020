@@ -47,7 +47,7 @@ const restaurant = {
   },
 };
 
-/*
+
 //looping array
 
 const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
@@ -58,7 +58,7 @@ for (const [i, el] of menu.entries()) {
 }
 console.log([...menu.entries()]);
 
-/*
+
 //coding challenge-1
 
 const game = {
@@ -102,9 +102,9 @@ const game = {
   },
 };
 
-/*
 
-/*
+
+
 
 //1
 const [player1, player2] = game.players;
@@ -137,9 +137,9 @@ const printGoal = function (...playerNames) {
 printGoal('naim', 'mou', 'sarah');
 printGoal('naim', 'mou', 'sarah', 'hasan', 'muhammad');
 
-*/
 
-/*
+
+
 
 //short circuitting start
 
@@ -163,7 +163,7 @@ console.log(3 && 'naim');
 
 console.log('naim' && 3 && true && null && 0);
 console.log('naim' && 3 && true && 'a' && 0);
-/*
+
 
 //end
 
@@ -201,8 +201,10 @@ restaurant.orderPizza('mushroom', 'onion', 'olives', 'spicy');
 restaurant.orderPizza('mushroom');
 
 //REST patter and parameter end
-*/
-/*
+
+
+
+
 //the spread operator start
 
 const arr = [1, 2, 3];
@@ -226,7 +228,7 @@ const mainMenuCopy = [...restaurant.mainMenu];
 const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
 console.log(menu);
 
-/*
+
 const ingredients = [
   prompt("Let's make pasta!!!Ingredients 1?"),
   prompt('Ingredient 2?'),
@@ -236,14 +238,14 @@ const ingredients = [
 console.log(ingredients);
 
 restaurant.orderPasta(...ingredients);
-*/
+
 
 // const newRestaurent = { foundingIn: 2000, ...restaurant, founder: 'Gus Fring' };
 // console.log(newRestaurent);
 
 //the spread operator end
 
-/*
+
 
 ////destructuring object start
 
@@ -284,23 +286,22 @@ const {
 console.log(o, c);
 
 ////destructuring object end
-*/
 
-/*
+
 
 //destructuring array start
 
 const arr = [3, 5, 7, 9];
 
-/*
+
 this is the old approach
 
 const x = arr[0];
 const y = arr[1];
 const z = arr[2];
 const a = arr[3];
-*/
-/*
+
+
 
 const [x, y, z, a] = arr; // array destructuring
 
@@ -309,15 +310,15 @@ console.log(x, y, z, a);
 let [main, , secondary] = restaurant.categories;
 console.log(main, secondary);
 
-/*
+
 //swap without array destrucuring
 let temp = main;
 main = secondary;
 secondary = temp;
 console.log(main, secondary);
-*/
+
 //swap with array destrucuring
-/*
+
 
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
@@ -334,4 +335,4 @@ const [i, , [j, k]] = nested;
 console.log(i, j, k);
 
 //destructuring array end
-*/
+
